@@ -16,6 +16,7 @@ module Moneybird::Resource::Invoice
       payment_transaction_id
       price
       price_base
+      transaction_identifier
       updated_at
       user_id
     )
