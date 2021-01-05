@@ -36,6 +36,9 @@ administration = administrations.first
 # List invoices
 administration.sales_invoices.all
 
+$ List invoices with a specific state
+administration.sales_invoices.all(filter: 'state:uncollectible')
+
 # List contacts
 administration.contacts.all
 
